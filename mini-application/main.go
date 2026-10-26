@@ -135,6 +135,6 @@ func main() {
 		}
 	})
 
-	fmt.Println("Веб-сервер запущен с использованием switch! Откройте: http://localhost:8080")
+	fmt.Println("Веб-сервер запущен! Откройте: http://localhost:8080")
 	http.ListenAndServe(":8080", nil)
 }
